@@ -13,6 +13,8 @@
 		0F06EE5515DC8DB4005A646C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0F06EE5315DC8DB4005A646C /* InfoPlist.strings */; };
 		0F06EE5715DC8DB4005A646C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F06EE5615DC8DB4005A646C /* main.m */; };
 		0F06EE5B15DC8DB4005A646C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F06EE5A15DC8DB4005A646C /* AppDelegate.m */; };
+		0F06EE6315DC9642005A646C /* MyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F06EE6215DC9642005A646C /* MyViewController.m */; };
+		0F8228CB15E228AE00ED2E27 /* op11_x101_00.png in Resources */ = {isa = PBXBuildFile; fileRef = 0F8228CA15E228AE00ED2E27 /* op11_x101_00.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,12 +22,15 @@
 		0F06EE4A15DC8DB4005A646C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		0F06EE4C15DC8DB4005A646C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		0F06EE4E15DC8DB4005A646C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		0F06EE5215DC8DB4005A646C /* ui-2-Info.plist */ = {isa = PBXFileReference; path = "ui-2-Info.plist"; sourceTree = "<group>"; };
+		0F06EE5215DC8DB4005A646C /* ui-2-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ui-2-Info.plist"; sourceTree = "<group>"; };
 		0F06EE5415DC8DB4005A646C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		0F06EE5615DC8DB4005A646C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		0F06EE5815DC8DB4005A646C /* ui-2-Prefix.pch */ = {isa = PBXFileReference; path = "ui-2-Prefix.pch"; sourceTree = "<group>"; };
-		0F06EE5915DC8DB4005A646C /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		0F06EE5815DC8DB4005A646C /* ui-2-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ui-2-Prefix.pch"; sourceTree = "<group>"; };
+		0F06EE5915DC8DB4005A646C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		0F06EE5A15DC8DB4005A646C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0F06EE6115DC9642005A646C /* MyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyViewController.h; sourceTree = "<group>"; };
+		0F06EE6215DC9642005A646C /* MyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyViewController.m; sourceTree = "<group>"; };
+		0F8228CA15E228AE00ED2E27 /* op11_x101_00.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = op11_x101_00.png; path = "../../Downloads/pic/作业3用图/op11_x101_00.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,9 +50,12 @@
 		0F06EE3B15DC8DB3005A646C = {
 			isa = PBXGroup;
 			children = (
+				0F06EE6115DC9642005A646C /* MyViewController.h */,
+				0F06EE6215DC9642005A646C /* MyViewController.m */,
 				0F06EE5015DC8DB4005A646C /* ui-2 */,
 				0F06EE4915DC8DB4005A646C /* Frameworks */,
 				0F06EE4715DC8DB3005A646C /* Products */,
+				0F8228CA15E228AE00ED2E27 /* op11_x101_00.png */,
 			);
 			sourceTree = "<group>";
 		};
@@ -141,6 +149,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0F06EE5515DC8DB4005A646C /* InfoPlist.strings in Resources */,
+				0F8228CB15E228AE00ED2E27 /* op11_x101_00.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -153,6 +162,7 @@
 			files = (
 				0F06EE5715DC8DB4005A646C /* main.m in Sources */,
 				0F06EE5B15DC8DB4005A646C /* AppDelegate.m in Sources */,
+				0F06EE6315DC9642005A646C /* MyViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -254,6 +264,7 @@
 				0F06EE6015DC8DB4005A646C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
